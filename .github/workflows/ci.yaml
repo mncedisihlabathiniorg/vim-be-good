@@ -18,4 +18,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: install dependencies
-      run: echo "have a nice day"
+      run: lscpu;echo "have a nice day"
